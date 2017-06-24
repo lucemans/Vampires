@@ -1,0 +1,10 @@
+name: NovaVampires
+main: nl.lucemans.vampire.Main
+version: 1.0
+author: MrDisk
+depend: [LucemansCore]
+commands:
+   vampire:
+      description: tool admin menu
+      usage: /tools <menu/player>
+      aliases: [v, vamp]

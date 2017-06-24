@@ -3,9 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="D:/Downloads/spigot-1.11.2.jar"/>
-	<classpathentry kind="lib" path="D:/Server/plugins/SkinsRestorer-v13.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Server/plugins/NovaAnimations.jar"/>
-	<classpathentry kind="lib" path="D:/Server/plugins/NovaClans.jar"/>
-	<classpathentry kind="lib" path="D:/Server/plugins/Vault (1).jar"/>
+	<classpathentry kind="lib" path="D:/Server/plugins/LucemansCore.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

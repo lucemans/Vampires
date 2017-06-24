@@ -1,0 +1,18 @@
+##################################################################################################
+### DATA                                                                                       ###
+### Datastorage, Don't mess with this unless you know what you are doing!!!                    ###
+##################################################################################################
+vampires: []
+
+##################################################################################################
+### Config                                                                                     ###
+### Lots of things to mess with to make this plugin fit your server                            ###
+##################################################################################################
+
+#True = Users turn to stone when in contact with daylight. False = Users start burning when in contact with daylight
+stonetransform: true
+
+##################################################################################################
+### LANGUAGE SETTINGS                                                                          ###
+### All messages associated with this plugin are stored in the 'lang.yml' file in LucemansCore ###
+##################################################################################################
