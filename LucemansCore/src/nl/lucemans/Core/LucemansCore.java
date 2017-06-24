@@ -21,6 +21,9 @@ import nl.lucemans.Core.tp.DelayedTP;
 import nl.lucemans.Core.type.LucemansListener;
 import nl.lucemans.animation.effects.Effect;
 
+/*
+ * Made by Lucemans (MrDisk)
+ */
 public class LucemansCore {
 	
 	public static Main main;
