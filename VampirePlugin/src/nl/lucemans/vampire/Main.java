@@ -39,7 +39,7 @@ import nl.lucemans.Core.type.LucemansEvent;
 import nl.lucemans.Core.type.LucemansListener;
 
 /*
- * Made by Lucemans (MrDisk)
+ * Made by Lucemans (MrDisk)!
  */
 public class Main extends JavaPlugin implements Listener, LucemansListener{
 
