@@ -46,7 +46,7 @@ public class Main extends JavaPlugin implements Listener, LucemansListener{
 	public ArrayList<Vampire> vampires = new ArrayList<Vampire>();
 	public ArrayList<Vampire> backupVamps = new ArrayList<Vampire>();
 	
-	public String prefix = "&7&l[&b&lFantasy&8&lVampires&7&l]&7";
+	public String prefix = "&7&l[&b&lNova&8&lVampires&7&l]&7";
 	public LangParse globalLang = new LangParse();
 	
 	public HashMap<Material, Double> terrainProt = new HashMap<Material, Double>();
@@ -73,6 +73,8 @@ public class Main extends JavaPlugin implements Listener, LucemansListener{
 		core.registerRace(new RaceVampire());
 		
 		core.addOrSetLang("vampires.prefix", "&7[&rNova&bVampires&7]");
+		core.addOrSetLang("vampires.header", "&7------&b&lNova&8&lVampires&7-----");
+		core.addOrSetLang("vampires.footer", "&7------&l---------------&7-----");
 		core.addOrSetLang("vampires.nopermission", "%prefix% You dont have permissions to do this.");
 		core.addOrSetLang("vampires.startup", "Hello World!!! I am a vampire!!!");
 		core.addOrSetLang("vampires.infection.bite", "%prefix% You feel a weird vibe going through your body.");
@@ -107,8 +109,8 @@ public class Main extends JavaPlugin implements Listener, LucemansListener{
 		prefix = core.getLang("vampires.prefix");
 		
 		globalLang.placeholders.put("%prefix%", prefix);
-		globalLang.placeholders.put("%header%", "&7------&b&lFantasy&8&lVampires&7-----");
-		globalLang.placeholders.put("%footer%", "&7------&l---------------&7-----");
+		globalLang.placeholders.put("%header%", core.getLang("vampires.header"));
+		globalLang.placeholders.put("%footer%", core.getLang("vampires.footer"));
 		
 		getLogger().info(parse(core.getLang("vampires.startup")));
 		
